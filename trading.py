@@ -16,12 +16,12 @@ from kivy.app import App
 from kivy.uix.widget import Widget
 # from kivy_deps import sdl2, glew
 
-class PongGame(Widget):
+class trading(Widget):
     pass
 
 class tradingApp(App):
     def build(self):
-        return PongGame()
+        return trading()
 
 tradingApp().run()
 
