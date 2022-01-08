@@ -4,6 +4,8 @@ import json
 token_path = '/path/to/token.pickle'
 api_key = 'YOUR_API_KEY@AMER.OAUTHAP'
 redirect_uri = 'https://your.redirecturi.com'
+
+
 try:
     c = auth.client_from_token_file(token_path, api_key)
 except FileNotFoundError:
